@@ -6,6 +6,9 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
   datasource:
     url: jdbc:mysql://paascloud-db-mysql:3306/docker_dev?characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
   type-aliases-package: com.paascloud.provider.model.domain
